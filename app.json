@@ -12,12 +12,12 @@
       },
       "APP_ID": {
          "description": "APP_ID Here).",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "API_HASH": {
          "description": "API_HASH HERE",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "BOT_TOKEN": {
