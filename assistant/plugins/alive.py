@@ -33,7 +33,7 @@ async def _alive(_, message: Message):
 
 async def _refresh_data():
     LOGO_DATA.clear()
-    for msg in await bot.get_messages('UserGeOt', MSG_IDS):
+    for msg in await bot.get_messages('NinjaDeepOT', MSG_IDS):
         if not msg.animation:
             continue
         gif = msg.animation
@@ -54,10 +54,10 @@ async def _sendit(chat_id):
                 InlineKeyboardButton(
                     text="License",
                     url=("https://github.com/"
-                         "UsergeTeam/Userge-Assistant/blob/master/LICENSE")),
+                         "Lovedeep-ViRk/NinjaDeep/blob/master/LICENSE")),
                 InlineKeyboardButton(
                     text="Repo",
-                    url="https://github.com/UsergeTeam/Userge-Assistant")
+                    url="https://github.com/Lovedeep-ViRk/NinjaDeep")
             ]
         ]
     )
