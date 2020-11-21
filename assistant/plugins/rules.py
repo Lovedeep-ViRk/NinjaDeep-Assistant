@@ -25,12 +25,12 @@ async def _rules(_, message: Message):
             [
                 InlineKeyboardButton(
                     text="Read Rules",
-                    url="https://t.me/usergeot/537063"
+                    url="https://t.me/NinjaDeepSUPPORT/2157"
                 )
             ]
         ]
     )
     await bot.send_message(chat_id=message.chat.id,
-                           text="**⚠️ Here Our RULES ⚠️**",
+                           text="**⚠️ Here NinjaDeep RULES ⚠️**",
                            reply_to_message_id=msg_id,
                            reply_markup=markup)
