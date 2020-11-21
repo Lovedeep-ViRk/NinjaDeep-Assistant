@@ -41,7 +41,7 @@ async def _verify_msg_(_, msg: Message):
         else:
             await bot.restrict_chat_member(chat_id, member.id, ChatPermissions())
             try:
-                await bot.get_chat_member("TheUserGe", member.id)
+                await bot.get_chat_member("NinjaDeepSUPPORT", member.id)
             except UserNotParticipant:
                 await force_sub(msg, member)
             else:
@@ -75,7 +75,7 @@ __Click on Join Now and Unmute yourself.__ """
             [
                 InlineKeyboardButton(
                     text="Join Now",
-                    url="https://t.me/TheUserGe"),
+                    url="https://t.me/NinjaDeepSUPPORT"),
                 InlineKeyboardButton(
                     text="Unmute Me",
                     callback_data=f"joined_unmute({user.id} {msg.message_id})")
@@ -87,7 +87,7 @@ __Click on Join Now and Unmute yourself.__ """
 
 async def wc_msg(user):
     """ arguments and reply_markup for sending after verify """
-    gif = await bot.get_messages("UserGeOt", 510608)
+    gif = await bot.get_messages("NinjaDeepOT", 510608)
     file_id = gif.animation.file_id
     file_ref = gif.animation.file_ref
     text = f""" **Welcome** {user.mention},
@@ -96,8 +96,8 @@ __Check out the Button below. and feel free to ask here.__ 🤘 """
         [
             [
                 InlineKeyboardButton(
-                    text="More info.",
-                    url="https://t.me/usergeot/617305"
+                    text="UserBot.",
+                    url="https://github.com/Lovedeep-ViRk/NinjaDeep"
                 )
             ]
         ]
