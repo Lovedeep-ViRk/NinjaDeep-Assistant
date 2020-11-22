@@ -26,7 +26,7 @@ async def _start_(_, msg: Message):
                 url="https://github.com/Lovedeep-ViRk/NinjaDeep"
             ),
             InlineKeyboardButton(
-                "😎 Use Inline!",
+                "🤖 Use Inline!",
                 switch_inline_query=""
             )
         ]])
