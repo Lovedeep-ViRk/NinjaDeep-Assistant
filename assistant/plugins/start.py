@@ -11,7 +11,6 @@ from pyrogram.types import (
     Message, InlineKeyboardMarkup, InlineKeyboardButton)
 
 from assistant import bot
-from assistant.utils.docs import HELP
 
 
 @bot.on_message(filters.private)
