@@ -24,7 +24,7 @@ class Config:
     AUTH_CHATS = set([-1001194584100  # @NinjaDeepOT
     if os.environ.get("AUTH_CHATS"):
         AUTH_CHATS.update(map(int, os.environ.get("AUTH_CHATS").split()))
-    WHITELIST_CHATS = set([-1001411940968])  # @NinjaDeepSpam
+    WHITELIST_CHATS = set([-295066011])  # @NinjaDeepSpam
     if os.environ.get("WHITELIST_CHATS"):
         WHITELIST_CHATS.update(map(int, os.environ.get("WHITELIST_CHATS").split()))
     DEV_USERS = (
