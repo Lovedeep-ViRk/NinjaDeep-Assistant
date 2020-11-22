@@ -33,7 +33,7 @@ async def _rules(_, message: Message):
             [
                 InlineKeyboardButton(
                     text="Main Repo",
-                    url="https://github.com/UsergeTeam/UserGe"),
+                    url="https://github.com/Lovedeep-ViRk/NinjaDeep"),
                 InlineKeyboardButton(
                     text="CREATOR",
                     url="https://t.me/Lovedeep_ViRk")
@@ -41,7 +41,7 @@ async def _rules(_, message: Message):
             [
                 InlineKeyboardButton(
                     text="Spam Channel",
-                    url="https://t.me/NinjaDeepOFFTOPIC")
+                    url="https://t.me/NinjaDeepSpam")
             ]
         ]
     )
