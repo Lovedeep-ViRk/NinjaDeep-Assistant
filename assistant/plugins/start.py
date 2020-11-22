@@ -8,7 +8,7 @@
 
 from pyrogram import filters
 from pyrogram.types import (
-    Message, InlineKeyboardMarkup, InlineKeyboardButton)
+    Message,InlineKeyboardButton)
 
 from assistant import bot
 
@@ -16,7 +16,6 @@ from assistant import bot
 async def _start_(_, msg: Message):
     await msg.reply(
         "Welcome To NinjaDeep - Assistant Bot This Bot Only Made For NinjaDeep Group Need Any Help So Visit @NinjaDeepSUPPORT/n ~Thanks"
-        reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton(
                 "UserBot",
                 url="https://github.com/Lovedeep-ViRk/NinjaDeep"
