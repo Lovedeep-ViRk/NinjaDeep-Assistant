@@ -117,7 +117,7 @@ __Click on Join Now and Unmute yourself.__ """
 
 async def wc_msg(user):
     """ arguments and reply_markup for sending after verify """
-    gif = await bot.get_messages("UserGeOt", 510608)
+    gif = await bot.get_messages("NinjaDeepOT", 7128)
     file_id = gif.animation.file_id
     file_ref = gif.animation.file_ref
     text = f""" **Welcome** {user.mention},
