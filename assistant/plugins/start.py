@@ -16,7 +16,7 @@ from assistant.utils.Startmessage.py import HELP
 @bot.on_message(filters.private)
 async def _start_(_, msg: Message):
     await msg.reply(
-        HELP,
+        "Welcome To NinjaDeep - Assistant Bot This Bot Only Made For NinjaDeep Group Need Any Help So Visit @NinjaDeepSUPPORT/n ~Thanks"
         disable_web_page_preview=True,
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup([[
