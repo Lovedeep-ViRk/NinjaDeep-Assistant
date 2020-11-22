@@ -143,7 +143,7 @@ async def _on_joined_unmute_(_, c_q: CallbackQuery):
         get_user = await bot.get_chat_member(chat_id, user_id)
         if get_user.restricted_by and get_user.restricted_by.id == bot_id:
             try:
-                await bot.get_chat_member("TheUserGe", user_id)
+                await bot.get_chat_member("NinjaDeepSUPPORT", user_id)
             except UserNotParticipant:
                 await c_q.answer(
                     "Click on Join Now button to Join our Updates Channel"
