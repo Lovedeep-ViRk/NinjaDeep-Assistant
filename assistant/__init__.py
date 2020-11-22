@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 
-from assistant.logger import logging  # noqa
-from assistant import config  # noqa
-from assistant import bot  # noqa
-from assistant import cus_filters  # noqa
+from .logger import logging  # noqa
+from .config import Config  # noqa
+from .bot import bot  # noqa
+from . import cus_filters  # noqa
