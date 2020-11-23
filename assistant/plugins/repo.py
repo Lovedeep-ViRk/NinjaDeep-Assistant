@@ -7,8 +7,7 @@
 # All rights reserved.
 
 from pyrogram import filters
-from pyrogram.types import (
-    Message, InlineKeyboardMarkup, InlineKeyboardButton)
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from assistant import bot, cus_filters
 
@@ -24,29 +23,28 @@ async def _rules(_, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="Official Channel",
-                    url="https://t.me/NinjaDeepSUPPORT"),
+                    text="Official Channel", url="https://t.me/NinjaDeepSUPPORT"
+                ),
                 InlineKeyboardButton(
-                    text="Help CHANNEL",
-                    url="https://t.me/NinjaDeepOT")
+                    text="Help CHANNEL", url="https://t.me/NinjaDeepOT"
+                ),
             ],
             [
                 InlineKeyboardButton(
-                    text="Main Repo",
-                    url="https://github.com/Lovedeep-ViRk/NinjaDeep"),
-                InlineKeyboardButton(
-                    text="CREATOR",
-                    url="https://t.me/Lovedeep_ViRk")
+                    text="Main Repo", url="https://github.com/Lovedeep-ViRk/NinjaDeep"
+                ),
+                InlineKeyboardButton(text="CREATOR", url="https://t.me/Lovedeep_ViRk"),
             ],
             [
                 InlineKeyboardButton(
-                    text="Spam Channel",
-                    url="https://t.me/NinjaDeepSpam")
-            ]
+                    text="Spam Channel", url="https://t.me/NinjaDeepSpam"
+                )
+            ],
         ]
     )
-    await bot.send_message(message.chat.id,
-                           text=("**Welcome**\n"
-                                 "__Check out our channels and Repo's 🤘__"),
-                           reply_to_message_id=msg_id,
-                           reply_markup=markup)
+    await bot.send_message(
+        message.chat.id,
+        text=("**Welcome**\n" "__Check out our channels and Repo's 🤘__"),
+        reply_to_message_id=msg_id,
+        reply_markup=markup,
+    )
